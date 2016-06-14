@@ -26,6 +26,7 @@
     "gulp": "^3.9.1",
     "gulp-nodemon": "^2.1.0",
     "gulp-shell": "^0.5.2",
+    "immutable": "^3.8.1",
     "jsdom": "^9.2.1",
     "jwt-authenticator": "github:niross/jwt-authenticator",
     "mocha": "^2.5.3",
