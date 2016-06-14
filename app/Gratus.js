@@ -20,7 +20,6 @@ const defaultProps = {};
 export class Gratus extends React.Component {
   constructor(props) {
     super(props);
-    AsyncStorage.clear();
   }
 
   render() {
