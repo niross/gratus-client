@@ -66,7 +66,7 @@ export function requestPosts(state) {
 /**
  * Set error state when posts request fails
  * @param {Immutable.Map} state
- * @param {String} error
+ * @param {Object} error
  * @returns {Immutable.Map}
  */
 export function requestPostsFailed(state, error) {
@@ -96,7 +96,7 @@ export function addPost(state) {
 /**
  * Set error state when post create request fails
  * @param {Immutable.Map} state
- * @param {String} error
+ * @param {Object} error
  * @returns {Immutable.Map}
  */
 export function addPostFailed(state, error) {
@@ -126,7 +126,7 @@ export function deletePost(state) {
 /**
  * Set error state when post delete request fails
  * @param {Immutable.Map} state
- * @param {String} error
+ * @param {Object} error
  * @returns {Immutable.Map}
  */
 export function deletePostFailed(state, error) {
@@ -140,10 +140,10 @@ export function deletePostFailed(state, error) {
  * @returns {Immutable.Map}
  */
 export function deletePostComplete(state, postId) {
+  const posts = state.get('posts');
   return state
     .set('loading', false)
-    .set('posts', state.get('posts').delete(
-      state.get('posts')
-        .findIndex((post) => post.get('_id') === postId)
+    .set('posts', posts.delete(
+      posts.findIndex((post) => post.get('_id') === postId)
     ));
 }

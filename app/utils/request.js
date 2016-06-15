@@ -23,7 +23,6 @@ export function checkStatus(response) {
  * @returns {object} - The parsed json
  */
 export function parseJSON(response) {
-  console.log(response);
   return response.json();
 }
 
