@@ -1,6 +1,9 @@
 /**
  * Redux actions for the Post model
  */
+import { host } from '../config';
+import { checkStatus, parseJSON } from '../utils/request';
+
 export const REQUEST_POSTS = 'REQUEST_POSTS';
 export function requestPosts() {
   return {
@@ -21,6 +24,21 @@ export function requestPostsComplete(posts) {
   return {
     type: REQUEST_POSTS_COMPLETE,
     posts
+  };
+}
+
+export function fetchPosts() {
+  return function thunkCallback(dispatch) {
+    dispatch(requestPosts());
+    return fetch(`${host}/api/posts/`)
+      .then(checkStatus)
+      .then(parseJSON)
+      .then((posts) => {
+        dispatch(requestPostsComplete(posts));
+      })
+      .catch((error) => {
+        dispatch(requestPostsFailed(error.response.statusText));
+      });
   };
 }
 
@@ -47,6 +65,24 @@ export function addPostComplete(post) {
   };
 }
 
+export function createPost(post) {
+  return function thunkCallback(dispatch) {
+    dispatch(addPost());
+    return fetch(`${host}/api/posts/`, {
+      method: 'POST',
+      body: JSON.stringify(post)
+    })
+      .then(checkStatus)
+      .then(parseJSON)
+      .then((newPost) => {
+        dispatch(addPostComplete(newPost));
+      })
+      .catch((error) => {
+        dispatch(addPostFailed(error.response.statusText));
+      });
+  };
+}
+
 export const DELETE_POST = 'DELETE_POST';
 export function deletePost() {
   return {
@@ -69,3 +105,21 @@ export function deletePostComplete(postId) {
     postId
   };
 }
+
+export function removePost(post) {
+  return function thunkCallback(dispatch) {
+    dispatch(deletePost());
+    return fetch(`${host}/api/posts/${post._id}`, {
+      method: 'DELETE'
+    })
+      .then(checkStatus)
+      .then(parseJSON)
+      .then(() => {
+        dispatch(deletePostComplete(post._id));
+      })
+      .catch((error) => {
+        dispatch(deletePostFailed(error.response.statusText));
+      });
+  };
+}
+

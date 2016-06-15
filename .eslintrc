@@ -13,6 +13,7 @@
     "decodeQuerystring": true
   },
   "rules": {
+    "no-underscore-dangle": 0,
     "no-return-assign": 0,
     "react/jsx-no-bind": 0,
     "no-console": "error",
