@@ -22,6 +22,6 @@
  */
 import { fromJS } from 'immutable';
 
-export function setUser(state, data) {
-  return state.merge(fromJS(data));
+export function setUser(state, user) {
+  return state.merge(fromJS(user));
 }

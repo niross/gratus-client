@@ -2,9 +2,9 @@
  * Redux actions for the User model
  */
 export const SET_USER = 'SET_USER';
-export function setUser(data) {
+export function setUser(user) {
   return {
     type: SET_USER,
-    data
+    user
   };
 }
