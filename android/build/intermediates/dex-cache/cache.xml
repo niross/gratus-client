@@ -2,20 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-61f893d3a84fdaec1e78ae81472d823aa616595a.jar" />
-    </item>
-    <item
-        jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.27.2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="36e26cb6307d65fd1480e7556ec071da88280722">
-        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/classes-6680e22db302cfba0c7f444604869f40c4cadb6f.jar" />
-    </item>
-    <item
         jar="/home/nick/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -23,11 +9,46 @@
         <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0-2630faa009ecb313c892d1f7cfe5e70bd36a6d1a.jar" />
     </item>
     <item
-        jar="/home/nick/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jar="/home/nick/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="129874135e6081269ace2312092031558865de12">
-        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-cd8400e7f577343e1fd02029a938a32f9c5d10bc.jar" />
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-a7e70423bbfeb46d69c381d361042d3aa9c5e4fa.jar" />
+    </item>
+    <item
+        jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.27.2/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cbdbf93189a97ea1b78ce66efdf5c2e225833b3c">
+        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-8deb37b813407bb94fd8de66799e6d69dbeb8066.jar" />
+    </item>
+    <item
+        jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d323cf4983bdfce7136a1ce5e32710e1b36b20fe">
+        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/classes-d17560e3689ed2baf0b90a321f4b8815acb56ceb.jar" />
+    </item>
+    <item
+        jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="65f0c887ee1f57cd0ea65b228e39b7f35372b798">
+        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/classes-3cf61e2796ec7b19eb65e2f55591dce7944f393b.jar" />
+    </item>
+    <item
+        jar="/home/nick/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/okio-1.8.0-d55d79dc96d147b5a4a5c3d4edafef9f8ef9a33a.jar" />
+    </item>
+    <item
+        jar="/home/nick/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.2.0/6f8a4b1435c9e0a6f9c5fe4a1be46627b848fd0c/okhttp-urlconnection-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6f8a4b1435c9e0a6f9c5fe4a1be46627b848fd0c">
+        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.2.0-4c6ae32923488465bcc4a21fb9ffe1a5acc7f171.jar" />
     </item>
     <item
         jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
@@ -44,81 +65,18 @@
         <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-a7de0f5498a37fe9412b7a2ab0e15d9811c76bde.jar" />
     </item>
     <item
-        jar="/home/nick/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-ec7ed6c2579dc766d43658d1a553fa2416509b81.jar" />
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-61f893d3a84fdaec1e78ae81472d823aa616595a.jar" />
     </item>
     <item
-        jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.10.0/jars/classes.jar"
+        jar="/home/nick/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="857099e23430445aeb65cf703d5adf646ff280f1">
-        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/classes-530d4f30832fb14a3c1daa7715b0aa5f9bf9e555.jar" />
-    </item>
-    <item
-        jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.10.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="53880c6e24bb574c2f03fd0f743a268ccc502f45">
-        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/classes-1d8a8ffed5aba3e57541b80dcb9a83805915ab08.jar" />
-    </item>
-    <item
-        jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.10.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="65f0c887ee1f57cd0ea65b228e39b7f35372b798">
-        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/classes-3cf61e2796ec7b19eb65e2f55591dce7944f393b.jar" />
-    </item>
-    <item
-        jar="/home/nick/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-494f3ecf5d8643340b1f2b812aea9e93a8d2e05b.jar" />
-    </item>
-    <item
-        jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/classes-37ec36b90d93b502a72ac08eb65ca83239a40f49.jar" />
-    </item>
-    <item
-        jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.10.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5e88a2a26ac71cd7f8fd8bd9f9381fa06d1a47a3">
-        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/classes-a0ee5ec88b0b9ba5f727ec1e1db18fcb94babfd8.jar" />
-    </item>
-    <item
-        jar="/home/nick/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.2.0/6f8a4b1435c9e0a6f9c5fe4a1be46627b848fd0c/okhttp-urlconnection-3.2.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="6f8a4b1435c9e0a6f9c5fe4a1be46627b848fd0c">
-        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.2.0-4c6ae32923488465bcc4a21fb9ffe1a5acc7f171.jar" />
-    </item>
-    <item
-        jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.10.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d323cf4983bdfce7136a1ce5e32710e1b36b20fe">
-        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/classes-d17560e3689ed2baf0b90a321f4b8815acb56ceb.jar" />
-    </item>
-    <item
-        jar="/home/nick/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.2.0/1ea229d6984444c8c58b8e97ba4c8429d9d135b3/okhttp-ws-3.2.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1ea229d6984444c8c58b8e97ba4c8429d9d135b3">
-        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.2.0-fb0d5e3d0ae63750e6c3f31964df0fe68fcc2f8e.jar" />
-    </item>
-    <item
-        jar="/home/nick/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/okio-1.8.0-d55d79dc96d147b5a4a5c3d4edafef9f8ef9a33a.jar" />
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-cd8400e7f577343e1fd02029a938a32f9c5d10bc.jar" />
     </item>
     <item
         jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
@@ -128,25 +86,74 @@
         <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/classes-bd5217e17f61bccc15aba0205e7da0a816739e8f.jar" />
     </item>
     <item
-        jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.27.2/jars/libs/infer-annotations-1.5.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="cbdbf93189a97ea1b78ce66efdf5c2e225833b3c">
-        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-8deb37b813407bb94fd8de66799e6d69dbeb8066.jar" />
-    </item>
-    <item
-        jar="/home/nick/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-a7e70423bbfeb46d69c381d361042d3aa9c5e4fa.jar" />
-    </item>
-    <item
         jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.10.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="6e1ed00013584399dbe27d45ac1fd6a9828c9fca">
         <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/classes-6f52af5d74c480f5917664b7d1cbb57141b7db3f.jar" />
+    </item>
+    <item
+        jar="/home/nick/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.2.0/1ea229d6984444c8c58b8e97ba4c8429d9d135b3/okhttp-ws-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ea229d6984444c8c58b8e97ba4c8429d9d135b3">
+        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.2.0-fb0d5e3d0ae63750e6c3f31964df0fe68fcc2f8e.jar" />
+    </item>
+    <item
+        jar="/home/nick/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-494f3ecf5d8643340b1f2b812aea9e93a8d2e05b.jar" />
+    </item>
+    <item
+        jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5e88a2a26ac71cd7f8fd8bd9f9381fa06d1a47a3">
+        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/classes-a0ee5ec88b0b9ba5f727ec1e1db18fcb94babfd8.jar" />
+    </item>
+    <item
+        jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/gratus/react-native-image-picker/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="337ee38fb60bfd77f9cb1a12795633ee996665c3">
+        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/classes-283193bc049ee6ee45708e165ba2c8d4fc925f54.jar" />
+    </item>
+    <item
+        jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="53880c6e24bb574c2f03fd0f743a268ccc502f45">
+        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/classes-1d8a8ffed5aba3e57541b80dcb9a83805915ab08.jar" />
+    </item>
+    <item
+        jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="857099e23430445aeb65cf703d5adf646ff280f1">
+        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/classes-530d4f30832fb14a3c1daa7715b0aa5f9bf9e555.jar" />
+    </item>
+    <item
+        jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.27.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="36e26cb6307d65fd1480e7556ec071da88280722">
+        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/classes-6680e22db302cfba0c7f444604869f40c4cadb6f.jar" />
+    </item>
+    <item
+        jar="/home/nick/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-ec7ed6c2579dc766d43658d1a553fa2416509b81.jar" />
+    </item>
+    <item
+        jar="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/nick/projects/gratus/gratus-client/android/app/build/intermediates/pre-dexed/debug/classes-37ec36b90d93b502a72ac08eb65ca83239a40f49.jar" />
     </item>
 
 </items>

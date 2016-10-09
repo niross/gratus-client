@@ -6,6 +6,7 @@ import { host } from './config';
 import { PostsContainer } from './containers/Posts';
 import { configureStore } from './store';
 import { setUser } from './actions/user';
+import { fetchPosts } from './actions/posts';
 
 const propTypes = {
   navigator: PropTypes.object,
@@ -24,6 +25,7 @@ export const Gratus = ({ navigator, route }) =>
     logoText="Gratus"
     onAuthenticate={(user) => {
       store.dispatch(setUser(user));
+      store.dispatch(fetchPosts(user.token));
     }}
   >
     <Provider store={store}>

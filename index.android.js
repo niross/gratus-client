@@ -13,16 +13,16 @@ BackAndroid.addEventListener('hardwareBackPress', () => {
 });
 
 class App extends React.Component {
+  configureScene(route) {
+    return route.sceneConfig || Navigator.SceneConfigs.HorizontalSwipeJump;
+  }
+
   renderScene(route, navigator) {
     _navigator = navigator;
     const Component = route.component;
     return (
       <Component navigator={navigator} route={route} {...route.props} />
     );
-  }
-
-  configureScene(route) {
-    return route.sceneConfig || Navigator.SceneConfigs.HorizontalSwipeJump;
   }
 
   render() {

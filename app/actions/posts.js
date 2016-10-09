@@ -27,17 +27,23 @@ export function requestPostsComplete(posts) {
   };
 }
 
-export function fetchPosts() {
+export function fetchPosts(token) {
   return function thunkCallback(dispatch) {
     dispatch(requestPosts());
-    return fetch(`${host}/api/posts/`)
+    return fetch(`${host}/api/posts/`, {
+      headers: {
+        Authorization: token
+      }
+    })
       .then(checkStatus)
       .then(parseJSON)
       .then((posts) => {
         dispatch(requestPostsComplete(posts));
       })
       .catch((error) => {
-        dispatch(requestPostsFailed(error.response.statusText));
+        dispatch(requestPostsFailed(
+          `An error occurred while fetching your posts (${error.response.status})`
+        ));
       });
   };
 }
